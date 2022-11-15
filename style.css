@@ -143,6 +143,34 @@
     font-size: 36px;
     line-height: 48px;
 }
+.font-custom-5{/*Poppins 600 24/32*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.font-custom-6{/*Roboto 400 18/24*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.font-custom-7{/*Poppins 600 14/20*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.font-custom-8{/*Roboto 500 16/32*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
 
 /*ESTILO HEADER*/
 header {
@@ -568,6 +596,133 @@ header {
 
 .opcao-bikes-bicicleta-interna .dado{
     width: 560px;
+}
+
+
+/* V PAGINA 4 - Seguros V ---------------------------------------------------------*/
+/*SECTION - SEGUROS*/
+#title-p{
+    color: var(--c5);
+    text-transform: uppercase;
+}
+#title-h1{
+    width: 416px;
+    height: 72px;
+}
+
+/*SECTION - VANTAGENS*/
+.vantagens{
+    height: 748px;
+    display: flex;
+    background-color: var(--c12);
+}
+.vantagens-content{
+    margin: auto;
+    width: 1160px;
+    height: 508px;
+}
+.vantagens .title-text{
+    color: var(--w);
+}
+.vantagens .center{
+    width: 1400px;
+    height: 260px;
+}
+.vantagens .img-set{
+    width: 1400px;
+    height: 126px;
+    display: flex;
+}
+.vantagens #set2{
+    position: absolute;
+    margin-top: 170px;
+}
+
+.vantagens .img-set div{
+    width: 360px;
+    height: 152px;
+}
+.vantagens .img-set h1{
+    color: var(--w);
+    margin-top: 8px;
+}
+.vantagens .img-set p{
+    color: var(--c6);
+    margin-top: 8px;
+}
+
+/*SECTION - PERGUNTAS*//*width/height*//* margin: top/r/bottom/l */
+.perguntas-content{
+    margin: auto;
+    width: 1160px;
+    height: 672px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.perguntas .title-text{
+    color: var(--c11);
+}
+.perguntas.center{
+    width: 1160px;
+    height: 512px;
+}
+.perguntas .ask1{
+    display: flex;
+    width: 1160px;
+    height: 128px;
+}
+.perguntas .ask1 p{
+    width: 832px;
+    height: 48px;
+}
+.perguntas .ask{
+    display: flex;
+    width: 1160px;
+    height: 64px;
+}
+.perguntas-center img{
+    width: 12px;
+    height: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+/* V PAGINA 5 - Contato V ---------------------------------------------------------*/
+#cidades-info{
+    width: 1160px;
+    height: 252px;
+    padding-top: 32px;
+}
+.rj, .sp{
+    width: 560px;
+    height: 252px;
+    align-items: center;
+}
+.info-header,  .info-content, .info-footer{
+    display: flex;
+}
+.info-header img{
+    width: 12px;
+    height: 8px;
+    margin-left: 36px;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+.info-content h1, h2{
+    width: 135px;
+    height: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 74px;
+}
+.info-footer img{
+    width: 20px;
+    height: 20px;
+    margin-left: 36px;
+    margin-right: 12px;
+}
+.info-footer p{
+    width: 150px;
 }
 
 /* V PAGINA 7 - Termos e condições V ---------------------------------------------------------*/
