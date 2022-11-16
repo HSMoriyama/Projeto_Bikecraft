@@ -66,7 +66,7 @@
     font-size: 24px;
     line-height: 36px;
 }
-.font-1-m{/*Poppins 400 18/24*/
+.font-1-m{/*Poppins 500 18/24*/
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -199,6 +199,27 @@
     font-size: 16px;
     line-height: 24px;
 }
+.font-custom-13{/*Poppins 600 16/24*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.font-custom-14{/*Poppins 600 36/40*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+.font-custom-15{/*Merriweather 900 36/48*/
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+}
 
 /*ESTILO HEADER*/
 header {
@@ -240,6 +261,10 @@ header {
 /*CONTENT STYLE ===============================================================================*/
 /* V PAGINA 1 - HOME V ------------------------------------------------------------------------*/
 
+/*MAIN HOME*/
+.home-main{
+    margin-bottom: -120px;
+}
 /*DARK SECTION*/
 /*FUNDO ESCURO*/
 .dark-section{
@@ -342,6 +367,7 @@ header {
 
 /*SECTION - OPCOES BIKES*/
 .opcao-bikes{
+    padding-top: 240px;
     width: 1460px;
     margin: auto;
     margin-bottom: 120px;
@@ -450,6 +476,31 @@ header {
 #set2{
     position: absolute;
     margin-top: 126px;
+}
+
+/*SECTION - DEPOIMENTOS*/
+.dep-section{/*Yellow*/
+    margin-top: 240px;
+    background-color: var(--p1);
+    display: flex;
+    margin: auto;
+}
+.dep-content{
+    display: flex;
+    margin: auto;
+    width: 1600px;
+}
+
+.dep-content h1{
+    width: 553px;
+    height: 240px;
+    margin: 296px 187px 144px 80px;
+}
+.dep-content p{
+    position: absolute;
+    margin: 568px 625px 80px 860px;
+    width: 115px;
+    height: 32px;
 }
 
 /*SECTION - SEG*/
@@ -577,6 +628,152 @@ header {
 
 /* ^ PAGINA 1 - HOME ^ ------------------------------------------------------------------------*/
 
+/* V PAGINA 2 - BICICLETA V ------------------------------------------------------------------------*/
+.bicicletas-main{
+    width: 1380px;
+    height: 1260px;
+    margin: auto;
+}
+
+/*DARK OFFER*/
+#bicicleta-offer{
+    background-color: white;
+    height: 460px;
+    display: flex;
+    justify-content: flex-end;
+}
+#bik-offer-section{
+    position: absolute;
+    background-color: var(--c11);
+    width: 1180px;
+    height: 460px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+#bik-offer-container{
+    width: 1160px;
+    height: 340px;
+    position: absolute;
+    margin-right: 240px;
+}
+
+#bik-offer-content {
+    width: 1380px;
+    height: 340px;
+}
+#bik-offer-content-container {
+    width: 1160px;
+    height: 340px;
+    display: flex;
+}
+
+#bik-offer{
+    width: 560px;
+    height: 340px;
+    position: absolute;
+    margin: 0px 0px 0px 600px;
+}
+#bik-offer h1{
+    height: 40px;
+    text-transform: none;
+}
+#bik-offer h1::after{
+    content: "";
+}
+#bik-offer p{
+    width: 500px;
+    height: 72px;
+    margin-top: -110px;
+    text-transform: none;
+}
+#bik-offer li{
+    color: var(--c5);
+}
+#bik-offer ul{
+    width: 190px;
+    height: 144px;
+    margin-top: 65px;
+}
+#bik-offer ul img{
+    width: 24px;
+    height: 24px;
+}
+#btnMais{
+    margin-left: 348px;
+    margin-top: -70px;
+}
+
+/*LIGHT OFFER*/
+#W-bicicleta-offer{
+    background-color: white;
+    height: 460px;
+    display: flex;
+    justify-content: flex-end;
+}
+#W-bik-offer-section{
+    position: absolute;
+    width: 1180px;
+    height: 460px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+#W-bik-offer-container{
+    width: 1160px;
+    height: 340px;
+    position: absolute;
+    margin-right: 240px;
+}
+
+#W-bik-offer-content {
+    width: 1380px;
+    height: 340px;
+}
+#W-bik-offer-content-container {
+    width: 1160px;
+    height: 340px;
+    display: flex;
+}
+
+#W-bik-offer{
+    width: 560px;
+    height: 340px;
+    position: absolute;
+    margin: 0px 0px 0px 600px;
+}
+#W-bik-offer h1{
+    color: var(--c11);
+    height: 40px;
+    text-transform: none;
+}
+#W-bik-offer h1::after{
+    content: "";
+}
+#W-bik-offer p{
+    width: 500px;
+    height: 72px;
+    color: var(--c8);
+    margin-top: -110px;
+    text-transform: none;
+}
+#W-bik-offer li{
+    color: var(--c8);
+}
+#W-bik-offer ul{
+    width: 190px;
+    height: 144px;
+    margin-top: 65px;
+}
+#W-bik-offer ul img{
+    width: 24px;
+    height: 24px;
+}
+#W-btnMais{
+    margin-left: 348px;
+    margin-top: -70px;
+}
+
 /* V PAGINA 3 - Bicicleta Interna V ---------------------------------------------------------*/
 /*SECTION - OPCOES BIKES*/
 .opcao-bikes-bicicleta-interna{
@@ -590,6 +787,34 @@ header {
 }
 .opcao-bikes-bicicleta-interna .dado{
     width: 560px;
+}
+
+#seg-offer{
+    background-color: var(--c11);
+    height: 636px;
+    margin: auto;
+}
+#seg-offer-container{
+    margin-top: -60px; 
+    justify-content: center;
+}
+#seg-offer-content{
+    width: 509px;
+    height: 396px;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+#seg-offer-content h1{
+    width: 509px;
+}
+#seg-offer-content h1::after{
+    content: "seguro.";
+    color:var(--p1)
+}
+.bar{
+    background-color: var(--c12);
+    height: 120px;
+    margin-bottom: -120px;
 }
 
 /* V PAGINA 4 - Seguros V ---------------------------------------------------------*/
@@ -644,7 +869,7 @@ header {
     margin-top: 8px;
 }
 
-/*SECTION - PERGUNTAS*//*width/height*//* margin: top/r/bottom/l */
+/*SECTION - PERGUNTAS*/
 .perguntas-content{
     margin: auto;
     width: 1160px;
@@ -681,6 +906,43 @@ header {
 }
 
 /* V PAGINA 5 - Contato V ---------------------------------------------------------*/
+/*FORM*/
+#msg{
+    height: 160px;
+}
+#btnFormContato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 277px;
+    height: 56px;
+    color: var(--p5);
+    background-color: var(--p1);
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 124px;
+}
+#endereco-title{
+    margin: 60px 310px 60px 60px;
+}
+#endereco{
+    background-color: var(--c12);
+    color: var(--c4);
+    margin-left: 20px;
+}
+#endereco li{
+    width: 209px;
+    height: 72px;
+    display: flex;
+}
+
+#redesSociais{
+    background-color: inherit;
+    justify-content: space-between;
+    width: 160px;
+    height: 32px;
+    margin-top: 120px;
+}
 #cidades-info{
     width: 1160px;
     height: 252px;
@@ -727,7 +989,6 @@ header {
 .conteudo{
     width: 1160px;
     height: 928px;
-    border: 10px solid green;
     display: flex;
     margin-bottom: 120px;
 }
@@ -851,7 +1112,6 @@ form input{
     width: 592px;
     height: 326px;
     margin: 68px 60px 60px 48px;
-    border: 2px solid red;
 }
 .pt1-title img{
     width: 4px;
@@ -866,7 +1126,6 @@ form input{
     margin-left: 10px;
 }
 .inner-div{
-    border: 1px solid #000;
     width: 580px;
     height: 76px;
     margin-top: 20px;
@@ -876,7 +1135,6 @@ form input{
     justify-content: space-between;
 }
 .data1, .data2{
-    border: 1px solid rgb(17, 0, 255);
     width: 280px;
 }
 .inner-div input{
@@ -885,7 +1143,6 @@ form input{
 }
 
 .pt1 p{
-    border: 1px solid rgb(17, 0, 255);
     width: 580px;
     margin-left: 16px;
     margin-bottom: 0px;
