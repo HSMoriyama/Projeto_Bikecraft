@@ -192,6 +192,13 @@
     font-size: 12px;
     line-height: 16px;
 }
+.font-custom-12{/*Poppins 500 16/24*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
 
 /*ESTILO HEADER*/
 header {
@@ -715,7 +722,7 @@ header {
 .formulario-section{
     height: 336px;
     background-color: var(--c11);
-    margin: auto;
+    margin-bottom: 732px;
 }
 .conteudo{
     width: 1160px;
@@ -824,13 +831,119 @@ header {
     height: 16px;
     margin-right: 8px;
 }
+/*FORM PT1*/
+/*ORCAMENTO E CONTATO*/
 form{
     width: 700px;
-    height: 928px;
     background-color: var(--w);
 }
+form input{
+    border-radius: 5px;
+    background-color: var(--c1);
+}
+.section-ocr{
+    width: 1160px;
+    height: 336px;
+    display: flex;
+    margin: auto;
+}
+.pt1{
+    width: 592px;
+    height: 326px;
+    margin: 68px 60px 60px 48px;
+    border: 2px solid red;
+}
+.pt1-title img{
+    width: 4px;
+    height: 8px;
+    margin-top: 8px;
+}
+.pt1-title{
+    display: flex;
+    color: var(--c9);
+}
+.pt1-title h1{
+    margin-left: 10px;
+}
+.inner-div{
+    border: 1px solid #000;
+    width: 580px;
+    height: 76px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.data1, .data2{
+    border: 1px solid rgb(17, 0, 255);
+    width: 280px;
+}
+.inner-div input{
+    width: 280px;
+    height: 48px;
+}
 
+.pt1 p{
+    border: 1px solid rgb(17, 0, 255);
+    width: 580px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+.cpf, .email{
+    margin-top: 0px;
+    width: 580px;
+    height: 48px;
+    margin-left: 16px;
+}
+/*BTN FORM*/
+#btnForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 277px;
+    height: 56px;
+    color: var(--p5);
+    background-color: var(--p1);
+    border-radius: 5px;
+    margin-left: 65px;
+}
 
+/*FORM PT2*/
+.pt2{
+    width: 592px;
+    height: 326px;
+    margin: 68px 60px 60px 48px;
+}
+.inner-div2{
+    width: 580px;
+    height: 76px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-div2 .deliv{
+    width: 280px;
+    height: 48px;
+}
+.inner-div2 p{
+    margin-top: 20px;
+}
+.checkTermos{
+    width: 315px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.checkTermos input{
+    width: 32px;
+    height: 32px;
+}
+.checkTermos a{
+    margin-left: 12px;
+}
 /* V PAGINA 7 - Termos e condições V ---------------------------------------------------------*/
 .main-titulo {
     background-color: var(--c11);
