@@ -171,6 +171,27 @@
     font-size: 16px;
     line-height: 32px;
 }
+.font-custom-9{/*Poppins 600 12/24*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+}
+.font-custom-10{/*Poppins 500 16/16*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.font-custom-11{/*Poppins 500 12/16*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
 
 /*ESTILO HEADER*/
 header {
@@ -312,7 +333,6 @@ header {
     background-color: var(--p1);
 }
 
-
 /*SECTION - OPCOES BIKES*/
 .opcao-bikes{
     width: 1460px;
@@ -322,8 +342,6 @@ header {
 #opcao-bikes-title{
     margin-left: 150px;
 }
-/*SECTION - OPCOES BIKES*/
-
 
 /*SECTION - TEC*/
 #tec-dark-section{
@@ -340,7 +358,7 @@ header {
     height: 1120px;
     width: 1301px;
 
-}/*width/height*/
+}
 .tec-content .content1 h1{
     text-transform: uppercase;
     width: 284px;
@@ -373,7 +391,7 @@ header {
 .tec-content .content2 h1, .content3 h1{
     color: #FFFFFF;
 }
-.grid{/* margin: top/r/bottom/l */
+.grid{
     width: 543px;
     height: 792px;
     margin: 80px 58px 88px 0px;
@@ -388,12 +406,11 @@ header {
     height: 172px;
 }
 
-/*SECTION - PARCEIROS*//*width/height*//* margin: top/r/bottom/l */
+/*SECTION - PARCEIROS*/
 .parceiros{
     height: 392px;
     margin-top: 380px;
     display: flex;
-    
 }
 .parceiros-content{
     margin: auto;
@@ -427,7 +444,6 @@ header {
     position: absolute;
     margin-top: 126px;
 }
-
 
 /*SECTION - SEG*/
 .seg{
@@ -552,33 +568,6 @@ header {
     color: var(--c6);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ^ PAGINA 1 - HOME ^ ------------------------------------------------------------------------*/
 
 /* V PAGINA 3 - Bicicleta Interna V ---------------------------------------------------------*/
@@ -589,15 +578,12 @@ header {
     margin-top: 92px;
     margin-bottom: 120px;
 }
-
 #opcao-bikes-bicicleta-interna-info{
     width: 1160px;
 }
-
 .opcao-bikes-bicicleta-interna .dado{
     width: 560px;
 }
-
 
 /* V PAGINA 4 - Seguros V ---------------------------------------------------------*/
 /*SECTION - SEGUROS*/
@@ -724,6 +710,126 @@ header {
 .info-footer p{
     width: 150px;
 }
+
+/* V PAGINA 6 - Orcamento V ---------------------------------------------------------*/
+.formulario-section{
+    height: 336px;
+    background-color: var(--c11);
+    margin: auto;
+}
+.conteudo{
+    width: 1160px;
+    height: 928px;
+    border: 10px solid green;
+    display: flex;
+    margin-bottom: 120px;
+}
+.dark-side{
+    background-color: var(--c12);
+    width: 460px;
+    height: 928px;
+}
+
+.op-title, .segs-type, .bike-model1, 
+.bike-model2, .op-bike3{display: flex;}
+
+.op-seg{
+    width: 352px;
+    height: 92px;
+    margin: 60px 59px 40px 49px;
+}
+.op-title h1{
+    color: var(--c5);
+    width: 140px;
+    height: 24px;
+    margin-left: 8px;
+}
+.op-title img{
+    width: 4px;
+    height: 8px;
+    margin-top: 8px;
+}
+.check-bx1, .check-bx2{
+    width: 160px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 18px;
+    margin-left: 8px;
+    align-items: center;
+    margin-top: 20px;
+}
+.check-bx1{background-color: var(--w);}
+.check-bx2{
+    background-color: var(--c10);
+    margin-left: 20px;
+}
+.check-bx1 p{
+    margin-left: 8px;
+    color: var(--c11);
+}
+.op-bike1 img{
+    margin-left: 48px;
+}
+.check-bx2,.bike-model1, .op-bike3 p{
+    margin-left: 8px;
+    color: var(--c4);
+}
+.bike-model1, .op-bike3{
+    background-color: var(--c10);
+    width: 320px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    margin: 24px 60px 20px 60px;
+}
+.bike-model1 p{
+    margin-left: 8px;
+}
+.bike-model2{
+    width: 306px;
+    height: 16px;
+    padding-top: 16px;
+    margin-left: 19px;
+}
+.bike-model2 h1{
+    color: var(--c11);
+    margin-left: 8px;
+}
+.bike-model2 p{
+    margin-left: 121px;
+}
+.op-bike2{
+    background-color: var(--w);
+    width: 340px;
+    height: 156px;
+    margin: 20px 61px 0px 59px;
+    border-radius: 5px;
+}
+.bike2-dados{
+    display: flex;
+    justify-content: space-between;
+    width: 286px;
+    height: 88px;
+    margin: 16px 15px 20px 39px;
+}
+.bike2-dados-list{
+    width: 130px;
+    height: 88px;
+}
+.bike2-list img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+form{
+    width: 700px;
+    height: 928px;
+    background-color: var(--w);
+}
+
 
 /* V PAGINA 7 - Termos e condições V ---------------------------------------------------------*/
 .main-titulo {
