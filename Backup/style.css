@@ -220,6 +220,13 @@
     font-size: 36px;
     line-height: 48px;
 }
+.font-custom-16{/*Merriweather 500 36/48*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
 
 /*ESTILO HEADER*/
 header {
@@ -775,6 +782,155 @@ header {
 }
 
 /* V PAGINA 3 - Bicicleta Interna V ---------------------------------------------------------*/
+/*SECTION - COMPRA*/
+/*BIKE FOTOS*/
+.compra-section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 1320px;
+    background-color: var(--c11);
+}
+.compra-content{
+    width: 1210px;
+    height: 1080px;
+    display: flex;
+}
+.bike-titulo h1{
+    width: 134px;
+    height: 48px;
+    color: var(--c5);
+    margin-top: 60px;
+}
+.bike-titulo h2{
+    margin-top: 4px;
+    margin-left: -5px;
+    width: 455px;
+    height: 72px;
+    color: var(--w);
+}
+.bike-fotos{
+    width: 560px;
+    height: 856px;
+}
+.mais-bikes{
+    width: 560px;
+    height: 212px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*SECTION - COMPRA*/
+/*BIKE DESCRICAO*/
+.bike-descricao{
+    width: 560px;
+    height: 896px;
+    margin-top: 220px;
+    margin-left: 40px;
+}
+#bike-descricao-text{
+    width: 560px;
+    height: 108px;
+    margin-bottom: 32px;
+    color: var(--c5);
+}
+.cta{
+    width: 560px;
+    height: 56px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.cta a{
+    background-color: rgba(255, 191, 0, 1);
+    color: var(--p5);
+    width: 169px;
+    height: 24px; 
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border-radius: 5px;
+}
+.cta p{
+    margin-top: 4px;
+    margin-left: 44px;
+    background-color: var(--c12);
+    color: var(--c6);
+    width: 151px;
+    height: 24px; 
+}
+
+/*SECTION - COMPRA*/
+/*BIKE DESCRICAO - INFORMACOES*/
+#subDescricao-title{
+    height: 16px;
+    color: var(--c5);
+    margin-bottom: 5px;
+}
+.subDescricao1{
+    background-color: var(--c12);
+    width: 530px;
+    height: 296px;
+    border-radius: 5px;
+    padding: 32px 32px 32px 32px;
+    margin-bottom: 20px;
+}
+.subDescricao1-content{
+    width: 510px;
+    height: 232px;
+    position: absolute;
+
+}
+.box-item-info{
+    width: 510px;
+    height: 97px;
+    display: flex;
+    margin-bottom: 36px;
+    justify-content: space-between;
+}
+.item-info{
+    width: 247px;
+    height: 100px;
+}
+.item-info img{
+    width: 24px;
+    height: 24px;
+}
+.item-info h1{
+    height: 24px;
+    color: var(--w);
+}
+.item-info p{
+    
+    height: 40px;
+    color: var(--c5);
+    margin-top: 8px;
+}
+
+.subDescricao2{
+    background-color: var(--c12);
+    width: 530px;
+    height: 296px;
+    border-radius: 5px;
+    padding: 32px 32px 32px 32px;
+    margin-bottom: 40px;
+}
+.subDescricao2-content{
+    width: 530px;
+    height: 296px;
+    padding-top: 30px;
+}
+.subDescricao2-line{
+    color: var(--c4);
+    width: 530px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--c11);
+}
+
 /*SECTION - OPCOES BIKES*/
 .opcao-bikes-bicicleta-interna{
     width: 1160px;
